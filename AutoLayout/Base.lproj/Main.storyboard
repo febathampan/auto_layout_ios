@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,11 +13,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AutoLayout" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8cI-9p-27n">
-                                <rect key="frame" x="82" y="405" width="250" height="100"/>
+                                <rect key="frame" x="82" y="318" width="250" height="100"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iSz-vH-W20">
                                         <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
@@ -30,7 +30,7 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pg8-We-bUu">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pg8-We-bUu">
                                         <rect key="frame" x="150" y="0.0" width="100" height="100"/>
                                         <color key="backgroundColor" red="1" green="0.76859789270000001" blue="0.31713466740000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
@@ -45,8 +45,10 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstItem="iSz-vH-W20" firstAttribute="top" secondItem="8cI-9p-27n" secondAttribute="top" id="34E-ql-PiG"/>
+                                    <constraint firstItem="Pg8-We-bUu" firstAttribute="top" secondItem="8cI-9p-27n" secondAttribute="top" id="3u2-Vc-66P"/>
                                     <constraint firstAttribute="height" constant="100" id="6Fn-WS-hEx"/>
                                     <constraint firstItem="iSz-vH-W20" firstAttribute="leading" secondItem="8cI-9p-27n" secondAttribute="leading" id="Arv-iY-fCl"/>
+                                    <constraint firstAttribute="trailing" secondItem="Pg8-We-bUu" secondAttribute="trailing" id="moe-15-Zav"/>
                                     <constraint firstAttribute="width" constant="250" id="pX6-XS-Ek8"/>
                                 </constraints>
                             </view>
